@@ -1,5 +1,59 @@
-window.SNAPSHOT = '8. November 2026';
+window.SNAPSHOT = '9. November 2026';
 window.OBJECTIVES = [
+ {
+  "id": "195",
+  "cat": "Kampagnen",
+  "catKey": "Campaigns",
+  "title": "Transfer Embargo Flash Rush",
+  "desc": "Play in the Transfer Embargo Flash Rush Event to earn exclusive rewards. All rewards are untradeable.",
+  "ends": "2026-11-11T17:59:00Z",
+  "starts": "2026-11-08T18:00:00Z",
+  "rewards": [
+   {
+    "kind": "pick",
+    "text": "1 aus 5: Gold-Spieler 81+"
+   },
+   {
+    "kind": "season",
+    "text": "250 Saisonpunkte"
+   }
+  ],
+  "tasks": [
+   {
+    "n": 1,
+    "title": "No Exit Allowed",
+    "desc": "Win 2 matches in the Transfer Embargo Flash Rush Event.",
+    "rewards": [
+     {
+      "kind": "item",
+      "text": "Hawk Instinct"
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "title": "Academy Trust",
+    "desc": "Assist in 3 separate matches with a Player with max. 85 PAC in the Transfer Embargo Flash Rush Event.",
+    "rewards": [
+     {
+      "kind": "pack",
+      "text": "3× Gold-Spielerpack 75+"
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "title": "Signed Before the Buzzer",
+    "desc": "Score in 3 separate matches with a ST (Primary Position) in the Transfer Embargo Flash Rush Event.",
+    "rewards": [
+     {
+      "kind": "item",
+      "text": "Cosmic Drift"
+     }
+    ]
+   }
+  ]
+ },
  {
   "id": "187",
   "cat": "Kampagnen",
@@ -831,60 +885,6 @@ window.OBJECTIVES = [
   ]
  },
  {
-  "id": "178",
-  "cat": "Kampagnen",
-  "catKey": "Campaigns",
-  "title": "Liga BBVA MX - El Día De Muertos",
-  "desc": "Feiere „El Día de Muertos“ in Football Ultimate Team! Schließe Aufgaben ab und verdiene ein exklusives Trikot. Alle Belohnungen sind nicht handelbar.",
-  "ends": "2026-11-08T17:59:00Z",
-  "starts": "2026-11-01T18:00:00Z",
-  "rewards": [
-   {
-    "kind": "item",
-    "text": "Liga BBVA MX – Día de Muertos"
-   }
-  ],
-  "tasks": [
-   {
-    "n": 1,
-    "title": "Los Campeones",
-    "desc": "Gewinne 3 Spiele mit mind. 1 Spieler der Liga BBVA MX in deiner Startelf in Squad Battles ab Semi-Pro (oder Rivals/Live Events/Rush/Champs).",
-    "rewards": [
-     {
-      "kind": "coins",
-      "text": "1.000 Münzen"
-     }
-    ]
-   },
-   {
-    "n": 2,
-    "title": "El Tri",
-    "desc": "Spiele 5 Spiele mit mind. 3 mexikanischen Spielern in deiner Startelf in Squad Battles ab Semi-Pro (oder Rivals/Live Events/Rush/Champs).",
-    "rewards": [
-     {
-      "kind": "boost",
-      "text": "Münz-Boost"
-     }
-    ]
-   },
-   {
-    "n": 3,
-    "title": "El Matón del área",
-    "desc": "Erzielle 4 Tore mit mind. 2 Spielern der Liga BBVA MX in deiner Startelf in Squad Battles ab Semi-Pro (oder Rivals/Live Events/Rush/Champs).",
-    "rewards": [
-     {
-      "kind": "style",
-      "text": "Hunter"
-     },
-     {
-      "kind": "style",
-      "text": "Hawk"
-     }
-    ]
-   }
-  ]
- },
- {
   "id": "181",
   "cat": "Kampagnen",
   "catKey": "Campaigns",
@@ -1007,78 +1007,6 @@ window.OBJECTIVES = [
   ]
  },
  {
-  "id": "161",
-  "cat": "Saison",
-  "catKey": "Seasonal",
-  "title": "FC Heritage Circuit World Class Event",
-  "desc": "Spiele das FC Heritage Circuit World Class Event, um Packs und mehr zu verdienen. Alle Belohnungen sind nicht handelbar.",
-  "ends": "2026-12-03T07:59:00Z",
-  "starts": "2026-10-22T07:00:00Z",
-  "rewards": [
-   {
-    "kind": "pack",
-    "text": "2× Gold-Spielerpack 82+"
-   }
-  ],
-  "tasks": [
-   {
-    "n": 1,
-    "title": "Rückgrat der Bundesliga",
-    "desc": "Gewinne 3 Spiele mit mind. 3 Bundesliga-Spielern in deiner Startelf im FC Heritage Circuit World Class Event.",
-    "rewards": [
-     {
-      "kind": "pack",
-      "text": "2× Gold-Spielerpack 81+"
-     }
-    ]
-   },
-   {
-    "n": 2,
-    "title": "Bayerischer Donner",
-    "desc": "Erzielle 5 Tore mit mind. 1 Spieler-Item des FC Bayern München (Bundesliga) in deiner Startelf im FC Heritage Circuit World Class Event.",
-    "rewards": [
-     {
-      "kind": "pack",
-      "text": "3× Gold-Spielerpack 80+"
-     }
-    ]
-   },
-   {
-    "n": 3,
-    "title": "Pariser Kraftschub",
-    "desc": "Bereite 4 Tore vor mit mind. 1 Spieler-Item von PSG (Ligue 1) in deiner Startelf im FC Heritage Circuit World Class Event.",
-    "rewards": [
-     {
-      "kind": "coins",
-      "text": "2.500 Münzen"
-     }
-    ]
-   },
-   {
-    "n": 4,
-    "title": "Bernabéu-Donner",
-    "desc": "Erzielle in 3 verschiedenen Spielen mindestens 1 Tor mit mind. 1 Spieler-Item von Real Madrid (LALIGA) in deiner Startelf im FC Heritage Circuit World Class Event.",
-    "rewards": [
-     {
-      "kind": "style",
-      "text": "Hunter"
-     }
-    ]
-   },
-   {
-    "n": 5,
-    "title": "Gewinne 1",
-    "desc": "Gewinne 1 Spiel im FC Heritage Circuit World Class Event und qualifiziere dich für das FC Heritage Circuit Tournament.",
-    "rewards": [
-     {
-      "kind": "pack",
-      "text": "Gold-Spielerpack 81+"
-     }
-    ]
-   }
-  ]
- },
- {
   "id": "160",
   "cat": "Saison",
   "catKey": "Seasonal",
@@ -1134,6 +1062,330 @@ window.OBJECTIVES = [
      {
       "kind": "style",
       "text": "Engine"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "164",
+  "cat": "Saison",
+  "catKey": "Seasonal",
+  "title": "FC Heritage Circuit: Komplettierung",
+  "desc": "Schließe die FC-Heritage-Circuit-Aufgaben ab, um Belohnungen zu verdienen. Alle Belohnungen sind nicht handelbar.",
+  "ends": "2026-12-03T07:59:00Z",
+  "starts": "2026-10-22T07:00:00Z",
+  "rewards": [
+   {
+    "kind": "player",
+    "rating": "84",
+    "pos": [
+     "CB"
+    ],
+    "name": "Jeremiah St. Juste",
+    "stats": [
+     [
+      "PAC",
+      "90"
+     ],
+     [
+      "SHO",
+      "66"
+     ],
+     [
+      "PAS",
+      "70"
+     ],
+     [
+      "DRI",
+      "73"
+     ],
+     [
+      "DEF",
+      "80"
+     ],
+     [
+      "PHY",
+      "79"
+     ]
+    ],
+    "label": "84 Jeremiah St. Juste",
+    "col": {
+     "header": "#ffe9ca",
+     "name": "#ffe9ca",
+     "attribute-values": "#ffe9ca",
+     "chip-bg": "#4e2611"
+    }
+   }
+  ],
+  "tasks": [
+   {
+    "n": 1,
+    "title": "Heritage Circuit: Weltklasse-Aufgabe",
+    "desc": "Schließe die Aufgabe des FC Heritage Circuit World Class Event ab.",
+    "rewards": [
+     {
+      "kind": "coins",
+      "text": "7.000 Münzen"
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "title": "Heritage Circuit: Profi-Aufgabe",
+    "desc": "Schließe die Aufgabe des FC Heritage Circuit Professional Event ab.",
+    "rewards": [
+     {
+      "kind": "coins",
+      "text": "6.000 Münzen"
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "title": "Heritage Circuit: Semi-Pro-Aufgabe",
+    "desc": "Schließe die Aufgabe des FC Heritage Circuit Semi-Pro Event ab.",
+    "rewards": [
+     {
+      "kind": "coins",
+      "text": "4.000 Münzen"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "157",
+  "cat": "Saison",
+  "catKey": "Seasonal",
+  "title": "FC Heritage Circuit Professional Event",
+  "desc": "Spiele das FC Heritage Circuit Professional Event, um Packs und mehr zu verdienen. Alle Belohnungen sind nicht handelbar.",
+  "ends": "2026-12-03T07:59:00Z",
+  "starts": "2026-10-22T07:00:00Z",
+  "rewards": [
+   {
+    "kind": "pack",
+    "text": "2× Gold-Spielerpack 81+"
+   }
+  ],
+  "tasks": [
+   {
+    "n": 1,
+    "title": "Premier-Stolz",
+    "desc": "Gewinne 2 Spiele mit mind. 3 Premier-League-Spielern in deiner Startelf im FC Heritage Circuit Professional Event.",
+    "rewards": [
+     {
+      "kind": "pack",
+      "text": "Gold-Spielerpack 82+"
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "title": "French Connection",
+    "desc": "Erzielle in einem Spiel mindestens 3 Tore mit mind. 1 französischen Spieler in deiner Startelf im FC Heritage Circuit Professional Event.",
+    "rewards": [
+     {
+      "kind": "pack",
+      "text": "2× Gold-Spielerpack 80+"
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "title": "Belgischer Turm",
+    "desc": "Bereite mindestens 3 Tore vor mit mind. 1 belgischen Spieler in deiner Startelf im FC Heritage Circuit Professional Event.",
+    "rewards": [
+     {
+      "kind": "coins",
+      "text": "2.000 Münzen"
+     }
+    ]
+   },
+   {
+    "n": 4,
+    "title": "Three-Lions-Vermächtnis",
+    "desc": "Erzielle in 2 verschiedenen Spielen mindestens 1 Tor mit mind. 1 englischen Spieler in deiner Startelf im FC Heritage Circuit Professional Event.",
+    "rewards": [
+     {
+      "kind": "style",
+      "text": "Anchor"
+     }
+    ]
+   },
+   {
+    "n": 5,
+    "title": "Gewinne 1",
+    "desc": "Gewinne 1 Spiel im FC Heritage Circuit Professional Event und qualifiziere dich für das FC Heritage Circuit World Class Event.",
+    "rewards": [
+     {
+      "kind": "pack",
+      "text": "Gold-Spielerpack 80+"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "158",
+  "cat": "Saison",
+  "catKey": "Seasonal",
+  "title": "FC Heritage Circuit Tournament",
+  "desc": "Spiele das FC Heritage Circuit Tournament, um einen besonderen FC Heritage Alexis Sánchez, Packs und mehr zu verdienen. Alle Belohnungen sind nicht handelbar.",
+  "ends": "2026-12-03T07:59:00Z",
+  "starts": "2026-10-22T07:00:00Z",
+  "rewards": [
+   {
+    "kind": "player",
+    "rating": "85",
+    "pos": [
+     "ST",
+     "CM",
+     "CAM"
+    ],
+    "name": "Alexis Sánchez",
+    "stats": [
+     [
+      "PAC",
+      "86"
+     ],
+     [
+      "SHO",
+      "83"
+     ],
+     [
+      "PAS",
+      "82"
+     ],
+     [
+      "DRI",
+      "85"
+     ],
+     [
+      "DEF",
+      "56"
+     ],
+     [
+      "PHY",
+      "72"
+     ]
+    ],
+    "label": "85 Alexis Sánchez",
+    "col": {
+     "header": "#ffe9ca",
+     "name": "#ffe9ca",
+     "attribute-values": "#ffe9ca",
+     "chip-bg": "#4e2611"
+    }
+   }
+  ],
+  "tasks": [
+   {
+    "n": 1,
+    "title": "Heritage-Champion",
+    "desc": "Gewinne das FC Heritage Circuit Tournament 3-mal.",
+    "rewards": [
+     {
+      "kind": "pack",
+      "text": "2× Gold-Spielerpack 84+"
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "title": "Donner-Finale",
+    "desc": "Gewinne das FC Heritage Circuit Tournament mit mind. 2 Premier-League-Spielern in deiner Startelf.",
+    "rewards": [
+     {
+      "kind": "pack",
+      "text": "2× Gold-Spielerpack 83+"
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "title": "Das Beste der Ligue 1",
+    "desc": "Gewinne 2 Spiele mit mind. 2 Ligue-1-Spielern in deiner Startelf im FC Heritage Circuit Tournament.",
+    "rewards": [
+     {
+      "kind": "pack",
+      "text": "3× Gold-Spielerpack 81+"
+     }
+    ]
+   },
+   {
+    "n": 4,
+    "title": "Oranje-Vermächtnis",
+    "desc": "Gib in 3 verschiedenen Spielen mindestens 1 Vorlage mit mind. 1 niederländischen Spieler in deiner Startelf im FC Heritage Circuit Tournament.",
+    "rewards": [
+     {
+      "kind": "pack",
+      "text": "3× Gold-Spielerpack 80+"
+     }
+    ]
+   },
+   {
+    "n": 5,
+    "title": "Madrider Königshaus",
+    "desc": "Erzielle in 3 verschiedenen Spielen mindestens 1 Tor mit mind. 1 Spieler von Real Madrid (LALIGA) in deiner Startelf im FC Heritage Circuit Tournament.",
+    "rewards": [
+     {
+      "kind": "pack",
+      "text": "2× Gold-Spielerpack 82+"
+     }
+    ]
+   },
+   {
+    "n": 6,
+    "title": "Französischer Nervenkitzel",
+    "desc": "Erzielle in 1 Spiel mindestens 2 Tore mit mind. 1 französischen Spieler in deiner Startelf im FC Heritage Circuit Tournament.",
+    "rewards": [
+     {
+      "kind": "coins",
+      "text": "3.000 Münzen"
+     }
+    ]
+   },
+   {
+    "n": 7,
+    "title": "Serie A nach Einbruch der Dunkelheit",
+    "desc": "Gewinne 1 Viertelfinalspiel mit mind. 2 Serie-A-Spielern in deiner Startelf im FC Heritage Circuit Tournament.",
+    "rewards": [
+     {
+      "kind": "style",
+      "text": "Shadow"
+     },
+     {
+      "kind": "style",
+      "text": "Hunter"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "166",
+  "cat": "Saison",
+  "catKey": "Seasonal",
+  "title": "Season 2 Daily Knockout Tournament: Wochenspiel",
+  "desc": "Spiele das Season-2-Daily-Knockout-Turnier, um exklusive Belohnungen zu verdienen! Alle Belohnungen sind nicht handelbar.",
+  "ends": "2026-12-03T07:59:00Z",
+  "starts": "2026-10-22T07:00:00Z",
+  "rewards": [
+   {
+    "kind": "style",
+    "text": "Shadow"
+   }
+  ],
+  "tasks": [
+   {
+    "n": 1,
+    "title": "Tor in 5 Spielen",
+    "desc": "Erzielle im Season-2-Daily-Knockout-Turnier in 5 verschiedenen Spielen mindestens 1 Tor.",
+    "rewards": [
+     {
+      "kind": "style",
+      "text": "Finisher"
      }
     ]
    }
@@ -1394,6 +1646,78 @@ window.OBJECTIVES = [
   ]
  },
  {
+  "id": "161",
+  "cat": "Saison",
+  "catKey": "Seasonal",
+  "title": "FC Heritage Circuit World Class Event",
+  "desc": "Spiele das FC Heritage Circuit World Class Event, um Packs und mehr zu verdienen. Alle Belohnungen sind nicht handelbar.",
+  "ends": "2026-12-03T07:59:00Z",
+  "starts": "2026-10-22T07:00:00Z",
+  "rewards": [
+   {
+    "kind": "pack",
+    "text": "2× Gold-Spielerpack 82+"
+   }
+  ],
+  "tasks": [
+   {
+    "n": 1,
+    "title": "Rückgrat der Bundesliga",
+    "desc": "Gewinne 3 Spiele mit mind. 3 Bundesliga-Spielern in deiner Startelf im FC Heritage Circuit World Class Event.",
+    "rewards": [
+     {
+      "kind": "pack",
+      "text": "2× Gold-Spielerpack 81+"
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "title": "Bayerischer Donner",
+    "desc": "Erzielle 5 Tore mit mind. 1 Spieler-Item des FC Bayern München (Bundesliga) in deiner Startelf im FC Heritage Circuit World Class Event.",
+    "rewards": [
+     {
+      "kind": "pack",
+      "text": "3× Gold-Spielerpack 80+"
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "title": "Pariser Kraftschub",
+    "desc": "Bereite 4 Tore vor mit mind. 1 Spieler-Item von PSG (Ligue 1) in deiner Startelf im FC Heritage Circuit World Class Event.",
+    "rewards": [
+     {
+      "kind": "coins",
+      "text": "2.500 Münzen"
+     }
+    ]
+   },
+   {
+    "n": 4,
+    "title": "Bernabéu-Donner",
+    "desc": "Erzielle in 3 verschiedenen Spielen mindestens 1 Tor mit mind. 1 Spieler-Item von Real Madrid (LALIGA) in deiner Startelf im FC Heritage Circuit World Class Event.",
+    "rewards": [
+     {
+      "kind": "style",
+      "text": "Hunter"
+     }
+    ]
+   },
+   {
+    "n": 5,
+    "title": "Gewinne 1",
+    "desc": "Gewinne 1 Spiel im FC Heritage Circuit World Class Event und qualifiziere dich für das FC Heritage Circuit Tournament.",
+    "rewards": [
+     {
+      "kind": "pack",
+      "text": "Gold-Spielerpack 81+"
+     }
+    ]
+   }
+  ]
+ },
+ {
   "id": "155",
   "cat": "Saison",
   "catKey": "Seasonal",
@@ -1460,330 +1784,6 @@ window.OBJECTIVES = [
      {
       "kind": "pack",
       "text": "2× Gold-Spielerpack 78+"
-     }
-    ]
-   }
-  ]
- },
- {
-  "id": "158",
-  "cat": "Saison",
-  "catKey": "Seasonal",
-  "title": "FC Heritage Circuit Tournament",
-  "desc": "Spiele das FC Heritage Circuit Tournament, um einen besonderen FC Heritage Alexis Sánchez, Packs und mehr zu verdienen. Alle Belohnungen sind nicht handelbar.",
-  "ends": "2026-12-03T07:59:00Z",
-  "starts": "2026-10-22T07:00:00Z",
-  "rewards": [
-   {
-    "kind": "player",
-    "rating": "85",
-    "pos": [
-     "ST",
-     "CM",
-     "CAM"
-    ],
-    "name": "Alexis Sánchez",
-    "stats": [
-     [
-      "PAC",
-      "86"
-     ],
-     [
-      "SHO",
-      "83"
-     ],
-     [
-      "PAS",
-      "82"
-     ],
-     [
-      "DRI",
-      "85"
-     ],
-     [
-      "DEF",
-      "56"
-     ],
-     [
-      "PHY",
-      "72"
-     ]
-    ],
-    "label": "85 Alexis Sánchez",
-    "col": {
-     "header": "#ffe9ca",
-     "name": "#ffe9ca",
-     "attribute-values": "#ffe9ca",
-     "chip-bg": "#4e2611"
-    }
-   }
-  ],
-  "tasks": [
-   {
-    "n": 1,
-    "title": "Heritage-Champion",
-    "desc": "Gewinne das FC Heritage Circuit Tournament 3-mal.",
-    "rewards": [
-     {
-      "kind": "pack",
-      "text": "2× Gold-Spielerpack 84+"
-     }
-    ]
-   },
-   {
-    "n": 2,
-    "title": "Donner-Finale",
-    "desc": "Gewinne das FC Heritage Circuit Tournament mit mind. 2 Premier-League-Spielern in deiner Startelf.",
-    "rewards": [
-     {
-      "kind": "pack",
-      "text": "2× Gold-Spielerpack 83+"
-     }
-    ]
-   },
-   {
-    "n": 3,
-    "title": "Das Beste der Ligue 1",
-    "desc": "Gewinne 2 Spiele mit mind. 2 Ligue-1-Spielern in deiner Startelf im FC Heritage Circuit Tournament.",
-    "rewards": [
-     {
-      "kind": "pack",
-      "text": "3× Gold-Spielerpack 81+"
-     }
-    ]
-   },
-   {
-    "n": 4,
-    "title": "Oranje-Vermächtnis",
-    "desc": "Gib in 3 verschiedenen Spielen mindestens 1 Vorlage mit mind. 1 niederländischen Spieler in deiner Startelf im FC Heritage Circuit Tournament.",
-    "rewards": [
-     {
-      "kind": "pack",
-      "text": "3× Gold-Spielerpack 80+"
-     }
-    ]
-   },
-   {
-    "n": 5,
-    "title": "Madrider Königshaus",
-    "desc": "Erzielle in 3 verschiedenen Spielen mindestens 1 Tor mit mind. 1 Spieler von Real Madrid (LALIGA) in deiner Startelf im FC Heritage Circuit Tournament.",
-    "rewards": [
-     {
-      "kind": "pack",
-      "text": "2× Gold-Spielerpack 82+"
-     }
-    ]
-   },
-   {
-    "n": 6,
-    "title": "Französischer Nervenkitzel",
-    "desc": "Erzielle in 1 Spiel mindestens 2 Tore mit mind. 1 französischen Spieler in deiner Startelf im FC Heritage Circuit Tournament.",
-    "rewards": [
-     {
-      "kind": "coins",
-      "text": "3.000 Münzen"
-     }
-    ]
-   },
-   {
-    "n": 7,
-    "title": "Serie A nach Einbruch der Dunkelheit",
-    "desc": "Gewinne 1 Viertelfinalspiel mit mind. 2 Serie-A-Spielern in deiner Startelf im FC Heritage Circuit Tournament.",
-    "rewards": [
-     {
-      "kind": "style",
-      "text": "Shadow"
-     },
-     {
-      "kind": "style",
-      "text": "Hunter"
-     }
-    ]
-   }
-  ]
- },
- {
-  "id": "164",
-  "cat": "Saison",
-  "catKey": "Seasonal",
-  "title": "FC Heritage Circuit: Komplettierung",
-  "desc": "Schließe die FC-Heritage-Circuit-Aufgaben ab, um Belohnungen zu verdienen. Alle Belohnungen sind nicht handelbar.",
-  "ends": "2026-12-03T07:59:00Z",
-  "starts": "2026-10-22T07:00:00Z",
-  "rewards": [
-   {
-    "kind": "player",
-    "rating": "84",
-    "pos": [
-     "CB"
-    ],
-    "name": "Jeremiah St. Juste",
-    "stats": [
-     [
-      "PAC",
-      "90"
-     ],
-     [
-      "SHO",
-      "66"
-     ],
-     [
-      "PAS",
-      "70"
-     ],
-     [
-      "DRI",
-      "73"
-     ],
-     [
-      "DEF",
-      "80"
-     ],
-     [
-      "PHY",
-      "79"
-     ]
-    ],
-    "label": "84 Jeremiah St. Juste",
-    "col": {
-     "header": "#ffe9ca",
-     "name": "#ffe9ca",
-     "attribute-values": "#ffe9ca",
-     "chip-bg": "#4e2611"
-    }
-   }
-  ],
-  "tasks": [
-   {
-    "n": 1,
-    "title": "Heritage Circuit: Weltklasse-Aufgabe",
-    "desc": "Schließe die Aufgabe des FC Heritage Circuit World Class Event ab.",
-    "rewards": [
-     {
-      "kind": "coins",
-      "text": "7.000 Münzen"
-     }
-    ]
-   },
-   {
-    "n": 2,
-    "title": "Heritage Circuit: Profi-Aufgabe",
-    "desc": "Schließe die Aufgabe des FC Heritage Circuit Professional Event ab.",
-    "rewards": [
-     {
-      "kind": "coins",
-      "text": "6.000 Münzen"
-     }
-    ]
-   },
-   {
-    "n": 3,
-    "title": "Heritage Circuit: Semi-Pro-Aufgabe",
-    "desc": "Schließe die Aufgabe des FC Heritage Circuit Semi-Pro Event ab.",
-    "rewards": [
-     {
-      "kind": "coins",
-      "text": "4.000 Münzen"
-     }
-    ]
-   }
-  ]
- },
- {
-  "id": "166",
-  "cat": "Saison",
-  "catKey": "Seasonal",
-  "title": "Season 2 Daily Knockout Tournament: Wochenspiel",
-  "desc": "Spiele das Season-2-Daily-Knockout-Turnier, um exklusive Belohnungen zu verdienen! Alle Belohnungen sind nicht handelbar.",
-  "ends": "2026-12-03T07:59:00Z",
-  "starts": "2026-10-22T07:00:00Z",
-  "rewards": [
-   {
-    "kind": "style",
-    "text": "Shadow"
-   }
-  ],
-  "tasks": [
-   {
-    "n": 1,
-    "title": "Tor in 5 Spielen",
-    "desc": "Erzielle im Season-2-Daily-Knockout-Turnier in 5 verschiedenen Spielen mindestens 1 Tor.",
-    "rewards": [
-     {
-      "kind": "style",
-      "text": "Finisher"
-     }
-    ]
-   }
-  ]
- },
- {
-  "id": "157",
-  "cat": "Saison",
-  "catKey": "Seasonal",
-  "title": "FC Heritage Circuit Professional Event",
-  "desc": "Spiele das FC Heritage Circuit Professional Event, um Packs und mehr zu verdienen. Alle Belohnungen sind nicht handelbar.",
-  "ends": "2026-12-03T07:59:00Z",
-  "starts": "2026-10-22T07:00:00Z",
-  "rewards": [
-   {
-    "kind": "pack",
-    "text": "2× Gold-Spielerpack 81+"
-   }
-  ],
-  "tasks": [
-   {
-    "n": 1,
-    "title": "Premier-Stolz",
-    "desc": "Gewinne 2 Spiele mit mind. 3 Premier-League-Spielern in deiner Startelf im FC Heritage Circuit Professional Event.",
-    "rewards": [
-     {
-      "kind": "pack",
-      "text": "Gold-Spielerpack 82+"
-     }
-    ]
-   },
-   {
-    "n": 2,
-    "title": "French Connection",
-    "desc": "Erzielle in einem Spiel mindestens 3 Tore mit mind. 1 französischen Spieler in deiner Startelf im FC Heritage Circuit Professional Event.",
-    "rewards": [
-     {
-      "kind": "pack",
-      "text": "2× Gold-Spielerpack 80+"
-     }
-    ]
-   },
-   {
-    "n": 3,
-    "title": "Belgischer Turm",
-    "desc": "Bereite mindestens 3 Tore vor mit mind. 1 belgischen Spieler in deiner Startelf im FC Heritage Circuit Professional Event.",
-    "rewards": [
-     {
-      "kind": "coins",
-      "text": "2.000 Münzen"
-     }
-    ]
-   },
-   {
-    "n": 4,
-    "title": "Three-Lions-Vermächtnis",
-    "desc": "Erzielle in 2 verschiedenen Spielen mindestens 1 Tor mit mind. 1 englischen Spieler in deiner Startelf im FC Heritage Circuit Professional Event.",
-    "rewards": [
-     {
-      "kind": "style",
-      "text": "Anchor"
-     }
-    ]
-   },
-   {
-    "n": 5,
-    "title": "Gewinne 1",
-    "desc": "Gewinne 1 Spiel im FC Heritage Circuit Professional Event und qualifiziere dich für das FC Heritage Circuit World Class Event.",
-    "rewards": [
-     {
-      "kind": "pack",
-      "text": "Gold-Spielerpack 80+"
      }
     ]
    }
@@ -1989,54 +1989,534 @@ window.OBJECTIVES = [
   ]
  },
  {
-  "id": "44",
+  "id": "43",
   "cat": "Meilensteine",
   "catKey": "Milestones",
-  "title": "Champions-Meilenstein",
-  "desc": "Jede Legende hat einen Anfang. Steig in Champions ein und beginne deinen Weg zur goldenen G.O.A.T.",
+  "title": "Rivals-Meilenstein",
+  "desc": "Der ultimative Test deines Könnens wartet in Division Rivals. Tritt gegen die Konkurrenz an und geh als Sieger hervor.",
   "ends": "2031-10-01T16:59:00Z",
   "starts": "2026-08-17T17:00:00Z",
   "rewards": [
    {
-    "kind": "coins",
-    "text": "5.000 Münzen"
-   },
-   {
     "kind": "pack",
-    "text": "Gold-Spielerpack 81+"
+    "text": "2× Gold-Spielerpack 82+"
    }
   ],
   "tasks": [
    {
     "n": 1,
     "title": "Spiele 15",
-    "desc": "Spiele 15 Champions-Spiele.",
+    "desc": "Spiele 15 Rivals-Spiele.",
     "rewards": [
      {
+      "kind": "coins",
+      "text": "5.000 Münzen"
+     },
+     {
       "kind": "pack",
-      "text": "4× Gold-Spielerpack 81+"
+      "text": "Gold-Spielerpack 75+"
      }
     ]
    },
    {
     "n": 2,
     "title": "Spiele 10",
-    "desc": "Spiele 10 Champions-Spiele.",
+    "desc": "Spiele 10 Rivals-Spiele.",
     "rewards": [
      {
-      "kind": "pack",
-      "text": "Gold-Spielerpack 75–83"
+      "kind": "pick",
+      "text": "1 aus 2: Gold-Spieler 78+"
      }
     ]
    },
    {
     "n": 3,
     "title": "Spiele 5",
-    "desc": "Spiele 5 Champions-Spiele.",
+    "desc": "Spiele 5 Rivals-Spiele.",
+    "rewards": [
+     {
+      "kind": "pick",
+      "text": "1 aus 2: Gold-Spieler 77+"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "58",
+  "cat": "Meisterschaft",
+  "catKey": "Mastery",
+  "title": "Tore-und-Vorlagen-Meisterschaft",
+  "desc": "Sammle Tore und Vorlagen und werde Tor-&-Vorlagen-Meister!",
+  "ends": "2031-10-01T16:59:00Z",
+  "starts": "2026-08-17T17:00:00Z",
+  "rewards": [
+   {
+    "kind": "item",
+    "text": "Stadion-Trophäe"
+   },
+   {
+    "kind": "item",
+    "text": "Stadion-Trophäe"
+   },
+   {
+    "kind": "pack",
+    "text": "Riesiges Gold-Pack"
+   }
+  ],
+  "tasks": [
+   {
+    "n": 1,
+    "title": "50 Flanken-Vorlagen",
+    "desc": "Gib 50 Vorlagen per Flanke in einem beliebigen FUT-Spielmodus.",
+    "rewards": [
+     {
+      "kind": "coins",
+      "text": "10.000 Münzen"
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "title": "50 direkte Freistöße",
+    "desc": "Erzielle 50 direkte Freistoßtore in einem beliebigen FUT-Spielmodus.",
+    "rewards": [
+     {
+      "kind": "coins",
+      "text": "10.000 Münzen"
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "title": "500 Tore",
+    "desc": "Erzielle 500 Tore in Squad Battles ab Semi-Pro (oder Rush/Rivals/Champions/Live Events).",
     "rewards": [
      {
       "kind": "boost",
       "text": "Münz-Boost"
+     },
+     {
+      "kind": "pack",
+      "text": "Gold-Spielerpack 80+"
+     }
+    ]
+   },
+   {
+    "n": 4,
+    "title": "100 Tore",
+    "desc": "Erzielle 100 Tore in Squad Battles ab Semi-Pro (oder Rush/Rivals/Champions/Live Events).",
+    "rewards": [
+     {
+      "kind": "pack",
+      "text": "2× Gold-Spielerpack 75+"
+     },
+     {
+      "kind": "coins",
+      "text": "2.500 Münzen"
+     }
+    ]
+   },
+   {
+    "n": 5,
+    "title": "500 Vorlagen",
+    "desc": "Gib 500 Vorlagen in Squad Battles ab Semi-Pro (oder Rush/Rivals/Champions/Live Events).",
+    "rewards": [
+     {
+      "kind": "boost",
+      "text": "Münz-Boost"
+     },
+     {
+      "kind": "pack",
+      "text": "Gold-Spielerpack 80+"
+     }
+    ]
+   },
+   {
+    "n": 6,
+    "title": "100 Vorlagen",
+    "desc": "Gib 100 Vorlagen in Squad Battles ab Semi-Pro (oder Rush/Rivals/Champions/Live Events).",
+    "rewards": [
+     {
+      "kind": "pack",
+      "text": "2× Gold-Spielerpack 75+"
+     },
+     {
+      "kind": "coins",
+      "text": "2.500 Münzen"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "57",
+  "cat": "Meisterschaft",
+  "catKey": "Mastery",
+  "title": "Live-Events-Meisterschaft",
+  "desc": "Erlebe das Siegergefühl in Live-Events-Spielen!",
+  "ends": "2031-10-01T16:59:00Z",
+  "starts": "2026-08-17T17:00:00Z",
+  "rewards": [
+   {
+    "kind": "pack",
+    "text": "Riesiges Gold-Pack"
+   }
+  ],
+  "tasks": [
+   {
+    "n": 1,
+    "title": "Gewinne 100",
+    "desc": "Gewinne 100 Live-Events-Spiele.",
+    "rewards": [
+     {
+      "kind": "pack",
+      "text": "Gold-Spielerpack 84+"
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "title": "Gewinne 50",
+    "desc": "Gewinne 50 Live-Events-Spiele.",
+    "rewards": [
+     {
+      "kind": "pack",
+      "text": "Großes Gold-Pack"
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "title": "Gewinne 25",
+    "desc": "Gewinne 25 Live-Events-Spiele.",
+    "rewards": [
+     {
+      "kind": "pack",
+      "text": "Kleines Gold-Spielerpack"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "53",
+  "cat": "Meisterschaft",
+  "catKey": "Mastery",
+  "title": "Rivals-Meisterschaft",
+  "desc": "Schlag deine Rivalen und beweise, dass du die G.O.A.T. bist!",
+  "ends": "2031-10-01T16:59:00Z",
+  "starts": "2026-08-17T17:00:00Z",
+  "rewards": [
+   {
+    "kind": "pack",
+    "text": "Großes Gold-Spielerpack"
+   }
+  ],
+  "tasks": [
+   {
+    "n": 1,
+    "title": "Gewinne 100",
+    "desc": "Gewinne 100 Rivals-Spiele.",
+    "rewards": [
+     {
+      "kind": "pack",
+      "text": "Riesiges Gold-Pack"
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "title": "Gewinne 50",
+    "desc": "Gewinne 50 Rivals-Spiele.",
+    "rewards": [
+     {
+      "kind": "pack",
+      "text": "10× Gold-Spielerpack 78+"
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "title": "Gewinne 25",
+    "desc": "Gewinne 25 Rivals-Spiele.",
+    "rewards": [
+     {
+      "kind": "pack",
+      "text": "Großes Gold-Pack"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "42",
+  "cat": "Meilensteine",
+  "catKey": "Milestones",
+  "title": "Squad-Battles-Meilenstein",
+  "desc": "Die Herausforderung steht. Betritt den Platz in Squad Battles und kämpfe dich durch den Wettbewerb.",
+  "ends": "2031-10-01T16:59:00Z",
+  "starts": "2026-08-17T17:00:00Z",
+  "rewards": [
+   {
+    "kind": "pack",
+    "text": "Großes Gold-Pack"
+   }
+  ],
+  "tasks": [
+   {
+    "n": 1,
+    "title": "Spiele 15",
+    "desc": "Spiele 15 Squad-Battles-Spiele auf beliebiger Schwierigkeit.",
+    "rewards": [
+     {
+      "kind": "pack",
+      "text": "Gold-Spielerpack 75+"
+     },
+     {
+      "kind": "pack",
+      "text": "2× Spielerpack"
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "title": "Spiele 10",
+    "desc": "Spiele 10 Squad-Battles-Spiele auf beliebiger Schwierigkeit.",
+    "rewards": [
+     {
+      "kind": "pack",
+      "text": "Gold-Spielerpack 75+"
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "title": "Spiele 5",
+    "desc": "Spiele 5 Squad-Battles-Spiele auf beliebiger Schwierigkeit.",
+    "rewards": [
+     {
+      "kind": "boost",
+      "text": "Münz-Boost"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "55",
+  "cat": "Meisterschaft",
+  "catKey": "Mastery",
+  "title": "Transfermarkt-Meisterschaft",
+  "desc": "Handle dich zur Transfermarkt-Meisterschaft!",
+  "ends": "2031-10-01T16:59:00Z",
+  "starts": "2026-08-17T17:00:00Z",
+  "rewards": [
+   {
+    "kind": "item",
+    "text": "Stadion-Trophäe"
+   },
+   {
+    "kind": "pack",
+    "text": "2× Gold-Spielerpack 82+"
+   },
+   {
+    "kind": "coins",
+    "text": "10.000 Münzen"
+   }
+  ],
+  "tasks": [
+   {
+    "n": 1,
+    "title": "1.000 einstellen",
+    "desc": "Stelle 1.000 Spieler auf den Transfermarkt.",
+    "rewards": [
+     {
+      "kind": "pack",
+      "text": "3× Gold-Spielerpack 81+"
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "title": "500 einstellen",
+    "desc": "Stelle 500 Spieler auf den Transfermarkt.",
+    "rewards": [
+     {
+      "kind": "pack",
+      "text": "Gold-Spielerpack 80+"
+     },
+     {
+      "kind": "coins",
+      "text": "2.500 Münzen"
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "title": "250 einstellen",
+    "desc": "Stelle 250 Spieler auf den Transfermarkt.",
+    "rewards": [
+     {
+      "kind": "coins",
+      "text": "5.000 Münzen"
+     }
+    ]
+   },
+   {
+    "n": 4,
+    "title": "1.000× Sofort kaufen",
+    "desc": "Kaufe 1.000 Spieler per „Sofort kaufen“ auf dem Transfermarkt.",
+    "rewards": [
+     {
+      "kind": "pack",
+      "text": "3× Gold-Spielerpack 81+"
+     }
+    ]
+   },
+   {
+    "n": 5,
+    "title": "500× Sofort kaufen",
+    "desc": "Kaufe 500 Spieler per „Sofort kaufen“ auf dem Transfermarkt.",
+    "rewards": [
+     {
+      "kind": "pack",
+      "text": "Gold-Spielerpack 80+"
+     },
+     {
+      "kind": "coins",
+      "text": "2.500 Münzen"
+     }
+    ]
+   },
+   {
+    "n": 6,
+    "title": "250× Sofort kaufen",
+    "desc": "Kaufe 250 Spieler per „Sofort kaufen“ auf dem Transfermarkt.",
+    "rewards": [
+     {
+      "kind": "coins",
+      "text": "5.000 Münzen"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "56",
+  "cat": "Meisterschaft",
+  "catKey": "Mastery",
+  "title": "Spielerbau-Meisterschaft",
+  "desc": "Arbeite dich zum SBC-Meister (Spielerbau) hoch!",
+  "ends": "2031-10-01T16:59:00Z",
+  "starts": "2026-08-17T17:00:00Z",
+  "rewards": [
+   {
+    "kind": "item",
+    "text": "Stadion-Trophäe"
+   },
+   {
+    "kind": "pack",
+    "text": "2× Gold-Spielerpack 83+"
+   }
+  ],
+  "tasks": [
+   {
+    "n": 1,
+    "title": "250 SBCs",
+    "desc": "Schließe 250 SBC-Gruppen (Spielerbau-Aufgaben) ab.",
+    "rewards": [
+     {
+      "kind": "pack",
+      "text": "10× Gold-Spielerpack 80+"
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "title": "100 SBCs",
+    "desc": "Schließe 100 SBC-Gruppen (Spielerbau-Aufgaben) ab.",
+    "rewards": [
+     {
+      "kind": "pack",
+      "text": "7× Gold-Spielerpack 75+"
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "title": "50 SBCs",
+    "desc": "Schließe 50 SBC-Gruppen (Spielerbau-Aufgaben) ab.",
+    "rewards": [
+     {
+      "kind": "pack",
+      "text": "Jumbo Gold-Pack"
+     },
+     {
+      "kind": "coins",
+      "text": "2.500 Münzen"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "52",
+  "cat": "Meisterschaft",
+  "catKey": "Mastery",
+  "title": "Champions-Meisterschaft",
+  "desc": "Die Bühne ist bereitet! Zeig allen, dass du das Zeug zur goldenen G.O.A.T. hast!",
+  "ends": "2031-10-01T16:59:00Z",
+  "starts": "2026-08-17T17:00:00Z",
+  "rewards": [
+   {
+    "kind": "coins",
+    "text": "50.000 Münzen"
+   },
+   {
+    "kind": "pack",
+    "text": "Gold-Spielerpack 86+"
+   },
+   {
+    "kind": "item",
+    "text": "Stadion-Trophäe"
+   },
+   {
+    "kind": "champtoken",
+    "text": "25 Champions-Tokens"
+   }
+  ],
+  "tasks": [
+   {
+    "n": 1,
+    "title": "Gewinne 100",
+    "desc": "Gewinne 100 Champions-Spiele.",
+    "rewards": [
+     {
+      "kind": "pack",
+      "text": "Jumbo Gold-Spielerpack"
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "title": "Gewinne 50",
+    "desc": "Gewinne 50 Champions-Spiele.",
+    "rewards": [
+     {
+      "kind": "pack",
+      "text": "Riesiges Gold-Pack"
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "title": "Gewinne 25",
+    "desc": "Gewinne 25 Champions-Spiele.",
+    "rewards": [
+     {
+      "kind": "pack",
+      "text": "10× Gold-Spielerpack 78+"
      }
     ]
    }
@@ -2083,56 +2563,6 @@ window.OBJECTIVES = [
     "n": 3,
     "title": "Spiele 5",
     "desc": "Spiele 5 Live-Events-Spiele.",
-    "rewards": [
-     {
-      "kind": "pick",
-      "text": "1 aus 3: Gold-Spieler 79+"
-     }
-    ]
-   }
-  ]
- },
- {
-  "id": "49",
-  "cat": "Meilensteine",
-  "catKey": "Milestones",
-  "title": "Spielerbau-Meilenstein",
-  "desc": "Arbeite dich zum SBC-Meister (Spielerbau) hoch!",
-  "ends": "2031-10-01T16:59:00Z",
-  "starts": "2026-08-17T17:00:00Z",
-  "rewards": [
-   {
-    "kind": "pack",
-    "text": "Großes Gold-Pack"
-   }
-  ],
-  "tasks": [
-   {
-    "n": 1,
-    "title": "25 SBCs",
-    "desc": "Schließe 25 SBC-Gruppen (Spielerbau-Aufgaben) ab.",
-    "rewards": [
-     {
-      "kind": "pack",
-      "text": "Kleines Gold-Spielerpack"
-     }
-    ]
-   },
-   {
-    "n": 2,
-    "title": "10 SBCs",
-    "desc": "Schließe 10 SBC-Gruppen (Spielerbau-Aufgaben) ab.",
-    "rewards": [
-     {
-      "kind": "pack",
-      "text": "Jumbo Gold-Pack"
-     }
-    ]
-   },
-   {
-    "n": 3,
-    "title": "5 SBCs",
-    "desc": "Schließe 5 SBC-Gruppen (Spielerbau-Aufgaben) ab.",
     "rewards": [
      {
       "kind": "pick",
@@ -2255,106 +2685,50 @@ window.OBJECTIVES = [
   ]
  },
  {
-  "id": "26",
-  "cat": "Grundlagen",
-  "catKey": "Foundations",
-  "title": "First Team Dreams",
-  "desc": "Schließe diese SBCs (Spielerbau-Aufgaben) ab, um Belohnungen zu verdienen und dein Team zu verbessern. Alle Belohnungen sind nicht handelbar.",
+  "id": "49",
+  "cat": "Meilensteine",
+  "catKey": "Milestones",
+  "title": "Spielerbau-Meilenstein",
+  "desc": "Arbeite dich zum SBC-Meister (Spielerbau) hoch!",
   "ends": "2031-10-01T16:59:00Z",
   "starts": "2026-08-17T17:00:00Z",
   "rewards": [
    {
-    "kind": "player",
-    "rating": "81",
-    "pos": [
-     "LB",
-     "RM",
-     "LM",
-     "RW"
-    ],
-    "name": "Keane Lewis-Potter",
-    "stats": [
-     [
-      "PAC",
-      "81"
-     ],
-     [
-      "SHO",
-      "74"
-     ],
-     [
-      "PAS",
-      "78"
-     ],
-     [
-      "DRI",
-      "82"
-     ],
-     [
-      "DEF",
-      "76"
-     ],
-     [
-      "PHY",
-      "70"
-     ]
-    ],
-    "label": "81 Keane Lewis-Potter",
-    "col": {
-     "header": "#fff6dd",
-     "name": "#fff6dd",
-     "attribute-values": "#fff6dd",
-     "chip-bg": "#05433e"
-    }
-   },
-   {
-    "kind": "style",
-    "text": "Engine"
+    "kind": "pack",
+    "text": "Großes Gold-Pack"
    }
   ],
   "tasks": [
    {
     "n": 1,
-    "title": "Gezielte Investitionen",
-    "desc": "Schließe 3 SBC-Gruppen (Spielerbau-Aufgaben) ab.",
+    "title": "25 SBCs",
+    "desc": "Schließe 25 SBC-Gruppen (Spielerbau-Aufgaben) ab.",
     "rewards": [
      {
-      "kind": "pick",
-      "text": "1 aus 2: Gold-Spieler 78+"
-     },
-     {
-      "kind": "season",
-      "text": "200 Saisonpunkte"
+      "kind": "pack",
+      "text": "Kleines Gold-Spielerpack"
      }
     ]
    },
    {
     "n": 2,
-    "title": "Aufsteigen durch Handeln",
-    "desc": "Schließe die SBC-Gruppe „Bronze-Upgrade“ ab.",
+    "title": "10 SBCs",
+    "desc": "Schließe 10 SBC-Gruppen (Spielerbau-Aufgaben) ab.",
     "rewards": [
      {
       "kind": "pack",
-      "text": "Jumbo Silber-Pack"
-     },
-     {
-      "kind": "style",
-      "text": "Deadeye"
+      "text": "Jumbo Gold-Pack"
      }
     ]
    },
    {
     "n": 3,
-    "title": "Spieler kommen, Spieler gehen",
-    "desc": "Schließe die SBC-Gruppe „Intro to Streamlined SBCs“ ab.",
+    "title": "5 SBCs",
+    "desc": "Schließe 5 SBC-Gruppen (Spielerbau-Aufgaben) ab.",
     "rewards": [
      {
       "kind": "pick",
-      "text": "1 aus 2: Premier-League-Gold-Spieler 77+"
-     },
-     {
-      "kind": "season",
-      "text": "200 Saisonpunkte"
+      "text": "1 aus 3: Gold-Spieler 79+"
      }
     ]
    }
@@ -2479,120 +2853,106 @@ window.OBJECTIVES = [
   ]
  },
  {
-  "id": "52",
-  "cat": "Meisterschaft",
-  "catKey": "Mastery",
-  "title": "Champions-Meisterschaft",
-  "desc": "Die Bühne ist bereitet! Zeig allen, dass du das Zeug zur goldenen G.O.A.T. hast!",
+  "id": "26",
+  "cat": "Grundlagen",
+  "catKey": "Foundations",
+  "title": "First Team Dreams",
+  "desc": "Schließe diese SBCs (Spielerbau-Aufgaben) ab, um Belohnungen zu verdienen und dein Team zu verbessern. Alle Belohnungen sind nicht handelbar.",
   "ends": "2031-10-01T16:59:00Z",
   "starts": "2026-08-17T17:00:00Z",
   "rewards": [
    {
-    "kind": "coins",
-    "text": "50.000 Münzen"
+    "kind": "player",
+    "rating": "81",
+    "pos": [
+     "LB",
+     "RM",
+     "LM",
+     "RW"
+    ],
+    "name": "Keane Lewis-Potter",
+    "stats": [
+     [
+      "PAC",
+      "81"
+     ],
+     [
+      "SHO",
+      "74"
+     ],
+     [
+      "PAS",
+      "78"
+     ],
+     [
+      "DRI",
+      "82"
+     ],
+     [
+      "DEF",
+      "76"
+     ],
+     [
+      "PHY",
+      "70"
+     ]
+    ],
+    "label": "81 Keane Lewis-Potter",
+    "col": {
+     "header": "#fff6dd",
+     "name": "#fff6dd",
+     "attribute-values": "#fff6dd",
+     "chip-bg": "#05433e"
+    }
    },
    {
-    "kind": "pack",
-    "text": "Gold-Spielerpack 86+"
-   },
-   {
-    "kind": "item",
-    "text": "Stadion-Trophäe"
-   },
-   {
-    "kind": "champtoken",
-    "text": "25 Champions-Tokens"
+    "kind": "style",
+    "text": "Engine"
    }
   ],
   "tasks": [
    {
     "n": 1,
-    "title": "Gewinne 100",
-    "desc": "Gewinne 100 Champions-Spiele.",
+    "title": "Gezielte Investitionen",
+    "desc": "Schließe 3 SBC-Gruppen (Spielerbau-Aufgaben) ab.",
     "rewards": [
      {
-      "kind": "pack",
-      "text": "Jumbo Gold-Spielerpack"
-     }
-    ]
-   },
-   {
-    "n": 2,
-    "title": "Gewinne 50",
-    "desc": "Gewinne 50 Champions-Spiele.",
-    "rewards": [
-     {
-      "kind": "pack",
-      "text": "Riesiges Gold-Pack"
-     }
-    ]
-   },
-   {
-    "n": 3,
-    "title": "Gewinne 25",
-    "desc": "Gewinne 25 Champions-Spiele.",
-    "rewards": [
-     {
-      "kind": "pack",
-      "text": "10× Gold-Spielerpack 78+"
-     }
-    ]
-   }
-  ]
- },
- {
-  "id": "56",
-  "cat": "Meisterschaft",
-  "catKey": "Mastery",
-  "title": "Spielerbau-Meisterschaft",
-  "desc": "Arbeite dich zum SBC-Meister (Spielerbau) hoch!",
-  "ends": "2031-10-01T16:59:00Z",
-  "starts": "2026-08-17T17:00:00Z",
-  "rewards": [
-   {
-    "kind": "item",
-    "text": "Stadion-Trophäe"
-   },
-   {
-    "kind": "pack",
-    "text": "2× Gold-Spielerpack 83+"
-   }
-  ],
-  "tasks": [
-   {
-    "n": 1,
-    "title": "250 SBCs",
-    "desc": "Schließe 250 SBC-Gruppen (Spielerbau-Aufgaben) ab.",
-    "rewards": [
-     {
-      "kind": "pack",
-      "text": "10× Gold-Spielerpack 80+"
-     }
-    ]
-   },
-   {
-    "n": 2,
-    "title": "100 SBCs",
-    "desc": "Schließe 100 SBC-Gruppen (Spielerbau-Aufgaben) ab.",
-    "rewards": [
-     {
-      "kind": "pack",
-      "text": "7× Gold-Spielerpack 75+"
-     }
-    ]
-   },
-   {
-    "n": 3,
-    "title": "50 SBCs",
-    "desc": "Schließe 50 SBC-Gruppen (Spielerbau-Aufgaben) ab.",
-    "rewards": [
-     {
-      "kind": "pack",
-      "text": "Jumbo Gold-Pack"
+      "kind": "pick",
+      "text": "1 aus 2: Gold-Spieler 78+"
      },
      {
-      "kind": "coins",
-      "text": "2.500 Münzen"
+      "kind": "season",
+      "text": "200 Saisonpunkte"
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "title": "Aufsteigen durch Handeln",
+    "desc": "Schließe die SBC-Gruppe „Bronze-Upgrade“ ab.",
+    "rewards": [
+     {
+      "kind": "pack",
+      "text": "Jumbo Silber-Pack"
+     },
+     {
+      "kind": "style",
+      "text": "Deadeye"
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "title": "Spieler kommen, Spieler gehen",
+    "desc": "Schließe die SBC-Gruppe „Intro to Streamlined SBCs“ ab.",
+    "rewards": [
+     {
+      "kind": "pick",
+      "text": "1 aus 2: Premier-League-Gold-Spieler 77+"
+     },
+     {
+      "kind": "season",
+      "text": "200 Saisonpunkte"
      }
     ]
    }
@@ -2696,420 +3056,6 @@ window.OBJECTIVES = [
      {
       "kind": "season",
       "text": "100 Saisonpunkte"
-     }
-    ]
-   }
-  ]
- },
- {
-  "id": "55",
-  "cat": "Meisterschaft",
-  "catKey": "Mastery",
-  "title": "Transfermarkt-Meisterschaft",
-  "desc": "Handle dich zur Transfermarkt-Meisterschaft!",
-  "ends": "2031-10-01T16:59:00Z",
-  "starts": "2026-08-17T17:00:00Z",
-  "rewards": [
-   {
-    "kind": "item",
-    "text": "Stadion-Trophäe"
-   },
-   {
-    "kind": "pack",
-    "text": "2× Gold-Spielerpack 82+"
-   },
-   {
-    "kind": "coins",
-    "text": "10.000 Münzen"
-   }
-  ],
-  "tasks": [
-   {
-    "n": 1,
-    "title": "1.000 einstellen",
-    "desc": "Stelle 1.000 Spieler auf den Transfermarkt.",
-    "rewards": [
-     {
-      "kind": "pack",
-      "text": "3× Gold-Spielerpack 81+"
-     }
-    ]
-   },
-   {
-    "n": 2,
-    "title": "500 einstellen",
-    "desc": "Stelle 500 Spieler auf den Transfermarkt.",
-    "rewards": [
-     {
-      "kind": "pack",
-      "text": "Gold-Spielerpack 80+"
-     },
-     {
-      "kind": "coins",
-      "text": "2.500 Münzen"
-     }
-    ]
-   },
-   {
-    "n": 3,
-    "title": "250 einstellen",
-    "desc": "Stelle 250 Spieler auf den Transfermarkt.",
-    "rewards": [
-     {
-      "kind": "coins",
-      "text": "5.000 Münzen"
-     }
-    ]
-   },
-   {
-    "n": 4,
-    "title": "1.000× Sofort kaufen",
-    "desc": "Kaufe 1.000 Spieler per „Sofort kaufen“ auf dem Transfermarkt.",
-    "rewards": [
-     {
-      "kind": "pack",
-      "text": "3× Gold-Spielerpack 81+"
-     }
-    ]
-   },
-   {
-    "n": 5,
-    "title": "500× Sofort kaufen",
-    "desc": "Kaufe 500 Spieler per „Sofort kaufen“ auf dem Transfermarkt.",
-    "rewards": [
-     {
-      "kind": "pack",
-      "text": "Gold-Spielerpack 80+"
-     },
-     {
-      "kind": "coins",
-      "text": "2.500 Münzen"
-     }
-    ]
-   },
-   {
-    "n": 6,
-    "title": "250× Sofort kaufen",
-    "desc": "Kaufe 250 Spieler per „Sofort kaufen“ auf dem Transfermarkt.",
-    "rewards": [
-     {
-      "kind": "coins",
-      "text": "5.000 Münzen"
-     }
-    ]
-   }
-  ]
- },
- {
-  "id": "42",
-  "cat": "Meilensteine",
-  "catKey": "Milestones",
-  "title": "Squad-Battles-Meilenstein",
-  "desc": "Die Herausforderung steht. Betritt den Platz in Squad Battles und kämpfe dich durch den Wettbewerb.",
-  "ends": "2031-10-01T16:59:00Z",
-  "starts": "2026-08-17T17:00:00Z",
-  "rewards": [
-   {
-    "kind": "pack",
-    "text": "Großes Gold-Pack"
-   }
-  ],
-  "tasks": [
-   {
-    "n": 1,
-    "title": "Spiele 15",
-    "desc": "Spiele 15 Squad-Battles-Spiele auf beliebiger Schwierigkeit.",
-    "rewards": [
-     {
-      "kind": "pack",
-      "text": "Gold-Spielerpack 75+"
-     },
-     {
-      "kind": "pack",
-      "text": "2× Spielerpack"
-     }
-    ]
-   },
-   {
-    "n": 2,
-    "title": "Spiele 10",
-    "desc": "Spiele 10 Squad-Battles-Spiele auf beliebiger Schwierigkeit.",
-    "rewards": [
-     {
-      "kind": "pack",
-      "text": "Gold-Spielerpack 75+"
-     }
-    ]
-   },
-   {
-    "n": 3,
-    "title": "Spiele 5",
-    "desc": "Spiele 5 Squad-Battles-Spiele auf beliebiger Schwierigkeit.",
-    "rewards": [
-     {
-      "kind": "boost",
-      "text": "Münz-Boost"
-     }
-    ]
-   }
-  ]
- },
- {
-  "id": "53",
-  "cat": "Meisterschaft",
-  "catKey": "Mastery",
-  "title": "Rivals-Meisterschaft",
-  "desc": "Schlag deine Rivalen und beweise, dass du die G.O.A.T. bist!",
-  "ends": "2031-10-01T16:59:00Z",
-  "starts": "2026-08-17T17:00:00Z",
-  "rewards": [
-   {
-    "kind": "pack",
-    "text": "Großes Gold-Spielerpack"
-   }
-  ],
-  "tasks": [
-   {
-    "n": 1,
-    "title": "Gewinne 100",
-    "desc": "Gewinne 100 Rivals-Spiele.",
-    "rewards": [
-     {
-      "kind": "pack",
-      "text": "Riesiges Gold-Pack"
-     }
-    ]
-   },
-   {
-    "n": 2,
-    "title": "Gewinne 50",
-    "desc": "Gewinne 50 Rivals-Spiele.",
-    "rewards": [
-     {
-      "kind": "pack",
-      "text": "10× Gold-Spielerpack 78+"
-     }
-    ]
-   },
-   {
-    "n": 3,
-    "title": "Gewinne 25",
-    "desc": "Gewinne 25 Rivals-Spiele.",
-    "rewards": [
-     {
-      "kind": "pack",
-      "text": "Großes Gold-Pack"
-     }
-    ]
-   }
-  ]
- },
- {
-  "id": "57",
-  "cat": "Meisterschaft",
-  "catKey": "Mastery",
-  "title": "Live-Events-Meisterschaft",
-  "desc": "Erlebe das Siegergefühl in Live-Events-Spielen!",
-  "ends": "2031-10-01T16:59:00Z",
-  "starts": "2026-08-17T17:00:00Z",
-  "rewards": [
-   {
-    "kind": "pack",
-    "text": "Riesiges Gold-Pack"
-   }
-  ],
-  "tasks": [
-   {
-    "n": 1,
-    "title": "Gewinne 100",
-    "desc": "Gewinne 100 Live-Events-Spiele.",
-    "rewards": [
-     {
-      "kind": "pack",
-      "text": "Gold-Spielerpack 84+"
-     }
-    ]
-   },
-   {
-    "n": 2,
-    "title": "Gewinne 50",
-    "desc": "Gewinne 50 Live-Events-Spiele.",
-    "rewards": [
-     {
-      "kind": "pack",
-      "text": "Großes Gold-Pack"
-     }
-    ]
-   },
-   {
-    "n": 3,
-    "title": "Gewinne 25",
-    "desc": "Gewinne 25 Live-Events-Spiele.",
-    "rewards": [
-     {
-      "kind": "pack",
-      "text": "Kleines Gold-Spielerpack"
-     }
-    ]
-   }
-  ]
- },
- {
-  "id": "58",
-  "cat": "Meisterschaft",
-  "catKey": "Mastery",
-  "title": "Tore-und-Vorlagen-Meisterschaft",
-  "desc": "Sammle Tore und Vorlagen und werde Tor-&-Vorlagen-Meister!",
-  "ends": "2031-10-01T16:59:00Z",
-  "starts": "2026-08-17T17:00:00Z",
-  "rewards": [
-   {
-    "kind": "item",
-    "text": "Stadion-Trophäe"
-   },
-   {
-    "kind": "item",
-    "text": "Stadion-Trophäe"
-   },
-   {
-    "kind": "pack",
-    "text": "Riesiges Gold-Pack"
-   }
-  ],
-  "tasks": [
-   {
-    "n": 1,
-    "title": "50 Flanken-Vorlagen",
-    "desc": "Gib 50 Vorlagen per Flanke in einem beliebigen FUT-Spielmodus.",
-    "rewards": [
-     {
-      "kind": "coins",
-      "text": "10.000 Münzen"
-     }
-    ]
-   },
-   {
-    "n": 2,
-    "title": "50 direkte Freistöße",
-    "desc": "Erzielle 50 direkte Freistoßtore in einem beliebigen FUT-Spielmodus.",
-    "rewards": [
-     {
-      "kind": "coins",
-      "text": "10.000 Münzen"
-     }
-    ]
-   },
-   {
-    "n": 3,
-    "title": "500 Tore",
-    "desc": "Erzielle 500 Tore in Squad Battles ab Semi-Pro (oder Rush/Rivals/Champions/Live Events).",
-    "rewards": [
-     {
-      "kind": "boost",
-      "text": "Münz-Boost"
-     },
-     {
-      "kind": "pack",
-      "text": "Gold-Spielerpack 80+"
-     }
-    ]
-   },
-   {
-    "n": 4,
-    "title": "100 Tore",
-    "desc": "Erzielle 100 Tore in Squad Battles ab Semi-Pro (oder Rush/Rivals/Champions/Live Events).",
-    "rewards": [
-     {
-      "kind": "pack",
-      "text": "2× Gold-Spielerpack 75+"
-     },
-     {
-      "kind": "coins",
-      "text": "2.500 Münzen"
-     }
-    ]
-   },
-   {
-    "n": 5,
-    "title": "500 Vorlagen",
-    "desc": "Gib 500 Vorlagen in Squad Battles ab Semi-Pro (oder Rush/Rivals/Champions/Live Events).",
-    "rewards": [
-     {
-      "kind": "boost",
-      "text": "Münz-Boost"
-     },
-     {
-      "kind": "pack",
-      "text": "Gold-Spielerpack 80+"
-     }
-    ]
-   },
-   {
-    "n": 6,
-    "title": "100 Vorlagen",
-    "desc": "Gib 100 Vorlagen in Squad Battles ab Semi-Pro (oder Rush/Rivals/Champions/Live Events).",
-    "rewards": [
-     {
-      "kind": "pack",
-      "text": "2× Gold-Spielerpack 75+"
-     },
-     {
-      "kind": "coins",
-      "text": "2.500 Münzen"
-     }
-    ]
-   }
-  ]
- },
- {
-  "id": "43",
-  "cat": "Meilensteine",
-  "catKey": "Milestones",
-  "title": "Rivals-Meilenstein",
-  "desc": "Der ultimative Test deines Könnens wartet in Division Rivals. Tritt gegen die Konkurrenz an und geh als Sieger hervor.",
-  "ends": "2031-10-01T16:59:00Z",
-  "starts": "2026-08-17T17:00:00Z",
-  "rewards": [
-   {
-    "kind": "pack",
-    "text": "2× Gold-Spielerpack 82+"
-   }
-  ],
-  "tasks": [
-   {
-    "n": 1,
-    "title": "Spiele 15",
-    "desc": "Spiele 15 Rivals-Spiele.",
-    "rewards": [
-     {
-      "kind": "coins",
-      "text": "5.000 Münzen"
-     },
-     {
-      "kind": "pack",
-      "text": "Gold-Spielerpack 75+"
-     }
-    ]
-   },
-   {
-    "n": 2,
-    "title": "Spiele 10",
-    "desc": "Spiele 10 Rivals-Spiele.",
-    "rewards": [
-     {
-      "kind": "pick",
-      "text": "1 aus 2: Gold-Spieler 78+"
-     }
-    ]
-   },
-   {
-    "n": 3,
-    "title": "Spiele 5",
-    "desc": "Spiele 5 Rivals-Spiele.",
-    "rewards": [
-     {
-      "kind": "pick",
-      "text": "1 aus 2: Gold-Spieler 77+"
      }
     ]
    }
@@ -3428,6 +3374,175 @@ window.OBJECTIVES = [
   ]
  },
  {
+  "id": "47",
+  "cat": "Meilensteine",
+  "catKey": "Milestones",
+  "title": "Transfermarkt-Meilenstein",
+  "desc": "Handle dich zur Transfermarkt-Meisterschaft!",
+  "ends": "2031-10-01T16:59:00Z",
+  "starts": "2026-08-17T17:00:00Z",
+  "rewards": [
+   {
+    "kind": "boost",
+    "text": "Münz-Boost"
+   }
+  ],
+  "tasks": [
+   {
+    "n": 1,
+    "title": "50 einstellen",
+    "desc": "Stelle 50 Spieler auf den Transfermarkt.",
+    "rewards": [
+     {
+      "kind": "coins",
+      "text": "5.000 Münzen"
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "title": "25 einstellen",
+    "desc": "Stelle 25 Spieler auf den Transfermarkt.",
+    "rewards": [
+     {
+      "kind": "coins",
+      "text": "2.500 Münzen"
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "title": "50× Sofort kaufen",
+    "desc": "Kaufe 50 Spieler per „Sofort kaufen“ auf dem Transfermarkt.",
+    "rewards": [
+     {
+      "kind": "coins",
+      "text": "5.000 Münzen"
+     }
+    ]
+   },
+   {
+    "n": 4,
+    "title": "25× Sofort kaufen",
+    "desc": "Kaufe 25 Spieler per „Sofort kaufen“ auf dem Transfermarkt.",
+    "rewards": [
+     {
+      "kind": "coins",
+      "text": "2.500 Münzen"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "44",
+  "cat": "Meilensteine",
+  "catKey": "Milestones",
+  "title": "Champions-Meilenstein",
+  "desc": "Jede Legende hat einen Anfang. Steig in Champions ein und beginne deinen Weg zur goldenen G.O.A.T.",
+  "ends": "2031-10-01T16:59:00Z",
+  "starts": "2026-08-17T17:00:00Z",
+  "rewards": [
+   {
+    "kind": "coins",
+    "text": "5.000 Münzen"
+   },
+   {
+    "kind": "pack",
+    "text": "Gold-Spielerpack 81+"
+   }
+  ],
+  "tasks": [
+   {
+    "n": 1,
+    "title": "Spiele 15",
+    "desc": "Spiele 15 Champions-Spiele.",
+    "rewards": [
+     {
+      "kind": "pack",
+      "text": "4× Gold-Spielerpack 81+"
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "title": "Spiele 10",
+    "desc": "Spiele 10 Champions-Spiele.",
+    "rewards": [
+     {
+      "kind": "pack",
+      "text": "Gold-Spielerpack 75–83"
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "title": "Spiele 5",
+    "desc": "Spiele 5 Champions-Spiele.",
+    "rewards": [
+     {
+      "kind": "boost",
+      "text": "Münz-Boost"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "45",
+  "cat": "Meilensteine",
+  "catKey": "Milestones",
+  "title": "Draft-Meilenstein",
+  "desc": "Draftet dich zur Größe!",
+  "ends": "2031-10-01T16:59:00Z",
+  "starts": "2026-08-17T17:00:00Z",
+  "rewards": [
+   {
+    "kind": "pack",
+    "text": "Großes Gold-Pack"
+   }
+  ],
+  "tasks": [
+   {
+    "n": 1,
+    "title": "Spiele 15",
+    "desc": "Spiele 15 Draft-Spiele.",
+    "rewards": [
+     {
+      "kind": "pack",
+      "text": "Gold-Spielerpack 75+"
+     },
+     {
+      "kind": "pack",
+      "text": "2× Spielerpack"
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "title": "Spiele 10",
+    "desc": "Spiele 10 Draft-Spiele.",
+    "rewards": [
+     {
+      "kind": "pick",
+      "text": "1 aus 2: Gold-Spieler 78+"
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "title": "Spiele 5",
+    "desc": "Spiele 5 Draft-Spiele.",
+    "rewards": [
+     {
+      "kind": "boost",
+      "text": "Münz-Boost"
+     }
+    ]
+   }
+  ]
+ },
+ {
   "id": "50",
   "cat": "Meilensteine",
   "catKey": "Milestones",
@@ -3509,121 +3624,6 @@ window.OBJECTIVES = [
      {
       "kind": "pick",
       "text": "1 aus 2: Gold-Spieler 78+"
-     }
-    ]
-   }
-  ]
- },
- {
-  "id": "47",
-  "cat": "Meilensteine",
-  "catKey": "Milestones",
-  "title": "Transfermarkt-Meilenstein",
-  "desc": "Handle dich zur Transfermarkt-Meisterschaft!",
-  "ends": "2031-10-01T16:59:00Z",
-  "starts": "2026-08-17T17:00:00Z",
-  "rewards": [
-   {
-    "kind": "boost",
-    "text": "Münz-Boost"
-   }
-  ],
-  "tasks": [
-   {
-    "n": 1,
-    "title": "50 einstellen",
-    "desc": "Stelle 50 Spieler auf den Transfermarkt.",
-    "rewards": [
-     {
-      "kind": "coins",
-      "text": "5.000 Münzen"
-     }
-    ]
-   },
-   {
-    "n": 2,
-    "title": "25 einstellen",
-    "desc": "Stelle 25 Spieler auf den Transfermarkt.",
-    "rewards": [
-     {
-      "kind": "coins",
-      "text": "2.500 Münzen"
-     }
-    ]
-   },
-   {
-    "n": 3,
-    "title": "50× Sofort kaufen",
-    "desc": "Kaufe 50 Spieler per „Sofort kaufen“ auf dem Transfermarkt.",
-    "rewards": [
-     {
-      "kind": "coins",
-      "text": "5.000 Münzen"
-     }
-    ]
-   },
-   {
-    "n": 4,
-    "title": "25× Sofort kaufen",
-    "desc": "Kaufe 25 Spieler per „Sofort kaufen“ auf dem Transfermarkt.",
-    "rewards": [
-     {
-      "kind": "coins",
-      "text": "2.500 Münzen"
-     }
-    ]
-   }
-  ]
- },
- {
-  "id": "45",
-  "cat": "Meilensteine",
-  "catKey": "Milestones",
-  "title": "Draft-Meilenstein",
-  "desc": "Draftet dich zur Größe!",
-  "ends": "2031-10-01T16:59:00Z",
-  "starts": "2026-08-17T17:00:00Z",
-  "rewards": [
-   {
-    "kind": "pack",
-    "text": "Großes Gold-Pack"
-   }
-  ],
-  "tasks": [
-   {
-    "n": 1,
-    "title": "Spiele 15",
-    "desc": "Spiele 15 Draft-Spiele.",
-    "rewards": [
-     {
-      "kind": "pack",
-      "text": "Gold-Spielerpack 75+"
-     },
-     {
-      "kind": "pack",
-      "text": "2× Spielerpack"
-     }
-    ]
-   },
-   {
-    "n": 2,
-    "title": "Spiele 10",
-    "desc": "Spiele 10 Draft-Spiele.",
-    "rewards": [
-     {
-      "kind": "pick",
-      "text": "1 aus 2: Gold-Spieler 78+"
-     }
-    ]
-   },
-   {
-    "n": 3,
-    "title": "Spiele 5",
-    "desc": "Spiele 5 Draft-Spiele.",
-    "rewards": [
-     {
-      "kind": "boost",
-      "text": "Münz-Boost"
      }
     ]
    }
