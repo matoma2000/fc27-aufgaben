@@ -1,4 +1,4 @@
-window.SNAPSHOT = '22. November 2026';
+window.SNAPSHOT = '23. November 2026';
 window.OBJECTIVES = [
  {
   "id": "209",
